@@ -157,17 +157,8 @@ soroban contract invoke --id <CONTRACT_ID> -- view_auction --auction_id 1
 
 ---
 
-## Contributing
-We welcome contributions from the community! Please feel free to submit pull requests, create issues, or suggest new features.
 
-## License
-This project is licensed under the MIT License.
-
-## Contact
-For questions or support, please reach out to our development team.
-
-
-## Contract ID - 
-CAFXZIOZK6BHMZMD2YDA5YVUA2BSOV3RBQJZEE3NRDBHTR3CMD2FUUFZ
+## Contract Description -
+Contract ID - CAFXZIOZK6BHMZMD2YDA5YVUA2BSOV3RBQJZEE3NRDBHTR3CMD2FUUFZ
 
 ![alt text](image.png)
