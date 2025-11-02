@@ -119,43 +119,6 @@ We aim to create a global auction platform accessible to anyone with an internet
     - Fraud detection algorithms
     - Personalized auction recommendations
 
----
-
-## Getting Started
-
-### Prerequisites
-- Rust programming language
-- Soroban SDK
-- Stellar development environment
-
-### Installation
-```bash
-# Clone the repository
-git clone <repository-url>
-
-# Build the smart contract
-soroban contract build
-
-# Deploy to Stellar testnet
-soroban contract deploy --wasm target/wasm32-unknown-unknown/release/auction_contract.wasm
-```
-
-### Usage Example
-```bash
-# Create an auction
-soroban contract invoke --id <CONTRACT_ID> -- create_auction --seller <SELLER_ADDRESS> --item_name "Vintage Watch" --starting_bid 100 --duration 86400
-
-# Place a bid
-soroban contract invoke --id <CONTRACT_ID> -- place_bid --auction_id 1 --bidder <BIDDER_ADDRESS> --bid_amount 150
-
-# End auction
-soroban contract invoke --id <CONTRACT_ID> -- end_auction --auction_id 1
-
-# View auction details
-soroban contract invoke --id <CONTRACT_ID> -- view_auction --auction_id 1
-```
-
----
 
 
 ## Contract Description -
